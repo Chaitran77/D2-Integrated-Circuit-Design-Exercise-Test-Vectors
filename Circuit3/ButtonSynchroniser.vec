@@ -1,0 +1,40 @@
+<PinDef>
+# Clock, nReset, ButtonMin, SyncMin, ButtonHour, SyncHour
+A13, A14, A15, Q6, A16, Q7
+</PinDef>
+<TestVector>
+# Clock, nReset, ButtonMin, SyncMin, ButtonHour, SyncHour
+0 0 0 0 0 0
+# check that outputs are unchanged after a clock pulse
+C 0 0 0 0 0
+# check that outputs are unchanged after nReset is set to 1
+C 1 0 0 0 0
+
+# check that SyncMin updates on rising edge and stays high for only 1 clock cycle
+0 1 1 0 0 0
+1 1 1 1 0 0
+0 1 1 0 0 0
+1 1 1 0 0 0
+0 1 0 0 0 0
+
+# check that SyncHour updates on rising edge and stays high for only 1 clock cycle
+0 1 0 0 1 0
+1 1 0 0 1 1
+0 1 0 0 1 0
+1 1 0 0 1 0
+0 1 0 0 0 0
+
+# check both work simulatneously
+C 1 1 1 1 1
+
+# check nReset suppresses syncMin
+C 1 0 0 0 0
+C 1 1 0 0 0
+C 1 0 0 0 0
+
+# check nReset suppresses syncHour
+C 1 0 0 0 0
+C 1 0 0 1 0
+C 1 0 0 0 0
+
+</TestVector>
