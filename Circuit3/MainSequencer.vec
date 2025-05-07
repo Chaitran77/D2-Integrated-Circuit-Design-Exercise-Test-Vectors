@@ -1,5 +1,6 @@
 <PinDef>
 # est. 2.13 sec for 44 vectors (616 ops)
+# the (-)9.00 sequence, 123 test vectors, is 355us of simulation time
 
 # Clock, nReset, Tick, SyncMinIn, SyncHourIn, Di1, Di2, Di3, Di4, D3, D2, D1, D0, DP
 A13, A14, A17, A18, A19, Q8, Q9, Q10, Q11, Q16, Q15, Q14, Q13, Q12
