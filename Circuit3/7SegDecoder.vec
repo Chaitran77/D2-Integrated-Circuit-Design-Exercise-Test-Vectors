@@ -1,9 +1,27 @@
+# Test Vector File
 <PinDef>
-# Clock, nReset, D3In, D2In, D1In, D0In, sA, sB, sC, sD, sE, sF, sG
-A13, A14, A23, A22, A21, A20, Q17, Q18, Q19, Q20, Q21, Q22, Q23
+# D3In, D2In, D1In, D0In, SegA, SegB, SegC, SegD, SegE, SegF, SegG
+A20,A21,A22,A23,Q17,Q18,Q19,Q20,Q21,Q22,Q23
 </PinDef>
 <TestVector>
-# Clock, nReset, D3In, D2In, D1In, D0In, sA, sB, sC, sD, sE, sF, sG
-C 1 0 0 0 0 
+00000000001
+1 0 0 0 1 0 0 1 1 1 1
+
+0 1 0 0 0 0 1 0 0 1 0
+
+1 1 0 0 0 0 0 0 1 1 0
+
+0 0 1 0 1 0 0 1 1 0 0
+
+1 0 1 0 0 1 0 0 1 0 0
+
+0 1 1 0 0 1 0 0 0 0 0
+
+1 1 1 0 0 0 0 1 1 1 1
+
+0 0 0 1 0 0 0 0 0 0 0
+
+1 0 0 1 0 0 0 1 1 0 0
 
 </TestVector>
+# End of the test vector file
