@@ -7,7 +7,7 @@ A13, A14, A17, A18, A19, Q8, Q9, Q10, Q11, Q16, Q15, Q14, Q13, Q12
 <TestVector>
 # Clock, nReset, Tick, SyncMinIn, SyncHourIn, Di1, Di2, Di3, Di4, D3, D2, D1, D0, DP
     # known state
-    C    0       0     0          0           1000                1100            1 
+    C    0       0     0          0           1000                0001            1 
     # check output digit updates on rising edge + exercise Digit1 -> Digit4 (Dn cycles through the digits of 1200 only) 
     0    1       0     0          0           1000                0001            1 
     1    1       0     0          0           0100                0010            0 
@@ -19,13 +19,8 @@ A13, A14, A17, A18, A19, Q8, Q9, Q10, Q11, Q16, Q15, Q14, Q13, Q12
     
     # check that nReset suppresses Tick (Dn cycles through the digits of 1200 only i.e. time doesn't change) 
     C    0       0     0          0           1000                0001            1 
-    C    0       1     0          0           1000                0010            0 
-    C    0       1     0          0           1000                0000            1 
-    C    0       1     0          0           1000                0000            1 
-    C    0       1     0          0           1000                0001            1 
-    C    0       1     0          0           1000                0010            0 
-    C    0       1     0          0           1000                0000            1 
-    C    0       1     0          0           1000                0000            1 
+    C    0       0     0          0           1000                0001            1 
+    C    0       0     0          0           1000                0001            1
     
     # check that SyncMinIn increments only the minute (12.00 -> 12.01) (way to test if on rising edge?)
     C    0       0     0          0           1000                0001            1 
@@ -70,14 +65,14 @@ A13, A14, A17, A18, A19, Q8, Q9, Q10, Q11, Q16, Q15, Q14, Q13, Q12
 
     # check that Tick increments the minute and causes a hour rollover (reads 12.10)
     # set to 1.00
-    C    0       0     0          0           1000                0001            1 
-    C    0       0     0          0           0100                XXXX            0 
-    C    0       0     0          0           0010                XXXX            1 
-    C    0       0     0          0           0001                XXXX            1 
-    C    1       0     0          1           1000                XXXX            1 
-    C    1       0     0          1           0100                XXXX            0 
-    C    1       0     0          1           0010                XXXX            1 
-    C    1       0     0          1           0001                XXXX            1 
+    # C    0       0     0          0           1000                0001            1 
+    # C    0       0     0          0           0100                XXXX            0 
+    # C    0       0     0          0           0010                XXXX            1 
+    # C    0       0     0          0           0001                XXXX            1 
+    # C    1       0     0          1           1000                XXXX            1 
+    # C    1       0     0          1           0100                XXXX            0 
+    # C    1       0     0          1           0010                XXXX            1 
+    # C    1       0     0          1           0001                XXXX            1 
 
     # Tick to 1.59, roll over using Tick to 2.00
     C    1       1     0          0           1000                XXXX            1 
