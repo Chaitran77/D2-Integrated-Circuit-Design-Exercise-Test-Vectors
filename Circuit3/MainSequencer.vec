@@ -58,24 +58,24 @@ A13, A14, A17, A18, A19, Q8, Q9, Q10, Q11, Q16, Q15, Q14, Q13, Q12
     C    1       1     0          0           0010                XXXX            1 
     C    1       0     0          0           0001                XXXX            1 
 
-    C    1       1     0          0           1000                0001            1 
-    C    1       1     0          0           0100                0010            0 
+    C    1       0     0          0           1000                0001            1 
+    C    1       0     0          0           0100                0010            0 
     C    1       0     0          0           0010                0001            1 
     C    1       0     0          0           0001                0000            1 
 
     # check that Tick increments the minute and causes a hour rollover (reads 12.10)
-    # set to 1.00
-    # C    0       0     0          0           1000                0001            1 
-    # C    0       0     0          0           0100                XXXX            0 
-    # C    0       0     0          0           0010                XXXX            1 
-    # C    0       0     0          0           0001                XXXX            1 
-    # C    1       0     0          1           1000                XXXX            1 
-    # C    1       0     0          1           0100                XXXX            0 
-    # C    1       0     0          1           0010                XXXX            1 
-    # C    1       0     0          1           0001                XXXX            1 
+    # set to 8.00
+    C    0       0     0          0           1000                0001            1 
+    C    1       0     0          1           0100                XXXX            0 
+    C    1       0     0          1           0010                XXXX            1 
+    C    1       0     0          1           0001                XXXX            1 
+    C    1       0     0          1           1000                XXXX            1 
+    C    1       0     0          1           0100                XXXX            0 
+    C    1       0     0          1           0010                XXXX            1 
+    C    1       0     0          1           0001                XXXX            1 
+    C    1       0     0          1           1000                XXXX            1 
 
-    # Tick to 1.59, roll over using Tick to 2.00
-    C    1       1     0          0           1000                XXXX            1 
+    # Tick to 8.59, roll over using Tick to 9.00
     C    1       1     0          0           0100                XXXX            0 
     C    1       1     0          0           0010                XXXX            1 
     C    1       1     0          0           0001                XXXX            1 
@@ -134,11 +134,12 @@ A13, A14, A17, A18, A19, Q8, Q9, Q10, Q11, Q16, Q15, Q14, Q13, Q12
     C    1       1     0          0           1000                XXXX            1 
     C    1       1     0          0           0100                XXXX            0 
     C    1       1     0          0           0010                XXXX            1 
+    C    1       1     0          0           0001                XXXX            1 
 
-    C    1       0     0          0           0001                XXXX            1 
+    # C    1       0     0          0           0001                XXXX            1 
 
     C    1       1     0          0           1000                XXXX            1 
-    C    1       0     0          0           0100                0010            0 
+    C    1       0     0          0           0100                1000            0 
     C    1       0     0          0           0010                0000            1 
     C    1       0     0          0           0001                0000            1 
 
