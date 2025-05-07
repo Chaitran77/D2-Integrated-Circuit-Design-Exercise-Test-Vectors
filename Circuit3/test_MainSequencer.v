@@ -491,8 +491,8 @@ initial
     $display ( "v 11001  XXXXXXXXX");
     apply_vector ( 5'b11001,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01001  10001XXXX");
-    apply_vector ( 5'b01001,9'b10001XXXX,
+    $display ( "v 01001  00001XXXX");
+    apply_vector ( 5'b01001,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01001  XXXXXXXXX");
     apply_vector ( 5'b01001,9'bXXXXXXXXX,
@@ -527,8 +527,8 @@ initial
     $display ( "v 11001  XXXXXXXXX");
     apply_vector ( 5'b11001,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01001  10001XXXX");
-    apply_vector ( 5'b01001,9'b10001XXXX,
+    $display ( "v 01001  00001XXXX");
+    apply_vector ( 5'b01001,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -563,8 +563,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -599,8 +599,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -635,8 +635,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -671,8 +671,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -707,8 +707,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -743,8 +743,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -779,8 +779,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -815,8 +815,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -851,8 +851,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -887,8 +887,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -923,8 +923,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -959,8 +959,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -995,8 +995,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -1031,8 +1031,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01100  XXXXXXXXX");
     apply_vector ( 5'b01100,9'bXXXXXXXXX,
@@ -1067,8 +1067,8 @@ initial
     $display ( "v 11100  XXXXXXXXX");
     apply_vector ( 5'b11100,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01100  10001XXXX");
-    apply_vector ( 5'b01100,9'b10001XXXX,
+    $display ( "v 01100  00001XXXX");
+    apply_vector ( 5'b01100,9'b00001XXXX,
                    5'b11111,9'b111110000);
     $display ( "v 01000  XXXXXXXXX");
     apply_vector ( 5'b01000,9'bXXXXXXXXX,
@@ -1076,8 +1076,8 @@ initial
     $display ( "v 11000  XXXXXXXXX");
     apply_vector ( 5'b11000,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01000  010000001");
-    apply_vector ( 5'b01000,9'b010000001,
+    $display ( "v 01000  010001001");
+    apply_vector ( 5'b01000,9'b010001001,
                    5'b11111,9'b111111111);
     $display ( "v 01000  XXXXXXXXX");
     apply_vector ( 5'b01000,9'bXXXXXXXXX,
