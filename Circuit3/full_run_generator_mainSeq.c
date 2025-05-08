@@ -38,13 +38,13 @@ void main() {
 
             printf("# tick to %d:%d\n", hour, minute);
 
-            printf("C    1       1     0          0           %s                XXXX            1\n", hour<10?"0000":"1000");
-            printf("C    1       0     0          0           0100                XXXX            0\n");
-            printf("C    1       0     0          0           0010                XXXX            1\n");
-            printf("C    1       0     0          0           0001                XXXX            1\n\n");
+            printf("C    1       1     0          0           %s                %s            1\n", hour<10?"0000":"1000", hour<10?"0000":"0001");
+            printf("C    1       0     0          0           0100                %s            0\n", toBinaryString(hour<10?hour:hour-10));
+            printf("C    1       0     0          0           0010                %s            1\n", toBinaryString(floor(minute/10)));
+            printf("C    1       0     0          0           0001                %s            1\n\n", toBinaryString(minute%10));
 
             printf("# check %d:%d\n", hour, minute);
-            printf("C    1       0     0          0           %s                %s            1\n", hour<10?"0000":"1000", hour<10?"XXXX":"0001");
+            printf("C    1       0     0          0           %s                %s            1\n", hour<10?"0000":"1000", hour<10?"0000":"0001");
             printf("C    1       0     0          0           0100                %s            0\n", toBinaryString(hour<10?hour:hour-10));
             printf("C    1       0     0          0           0010                %s            1\n", toBinaryString(floor(minute/10)));
             printf("C    1       0     0          0           0001                %s            1\n\n", toBinaryString(minute%10));
