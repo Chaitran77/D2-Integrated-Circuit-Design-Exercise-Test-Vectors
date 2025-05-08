@@ -1184,8 +1184,8 @@ initial
     $display ( "v 11000  XXXXXXXXX");
     apply_vector ( 5'b11000,9'bXXXXXXXXX,
                    5'b11111,9'b000000000);
-    $display ( "v 01000  010010100");
-    apply_vector ( 5'b01000,9'b010010100,
+    $display ( "v 01000  010000100");
+    apply_vector ( 5'b01000,9'b010000100,
                    5'b11111,9'b111111111);
     $display ( "v 01000  XXXXXXXXX");
     apply_vector ( 5'b01000,9'bXXXXXXXXX,
