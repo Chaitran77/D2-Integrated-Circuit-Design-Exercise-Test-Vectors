@@ -3,6 +3,9 @@
 #include <math.h>
 #include <stdio.h>
 
+
+// Generates a full set of test vectors that tick the clock from 12.00 -> 1.00 -> 12.59
+
 // from https://stackoverflow.com/a/68069409
 char* toBinaryString(int n) {
     int num_bits = 4;
