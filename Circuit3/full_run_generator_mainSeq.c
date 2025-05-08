@@ -22,7 +22,7 @@ void main() {
 
     printf("# Set 12:00\n");
     printf("C    0       0     0          0           1000                0001            1\n");
-    printf("C    1       0     0          0           0100                0010            1\n");
+    printf("C    1       0     0          0           0100                0010            0\n");
     printf("C    1       0     0          0           0010                0000            1\n");
     printf("C    1       0     0          0           0001                0000            1\n\n");
 
